@@ -137,6 +137,7 @@ function drawEverything(){
 
   if (showingWinScreen) {
           canvasContext.fillStyle = 'white';
+          // canvasContext.font="30px Arial";
 
           if (player1Score >= WINNIG_SCORE){
             canvasContext.fillText("Left Player Won!",350,200);
