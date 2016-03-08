@@ -140,9 +140,9 @@ function drawEverything(){
           // canvasContext.font="30px Arial";
 
           if (player1Score >= WINNIG_SCORE){
-            canvasContext.fillText("Left Player Won!",350,200);
+            canvasContext.fillText("You Won!",350,200);
           } else if (player2Score >= WINNIG_SCORE) {
-            canvasContext.fillText("Right PLayer Won!",350,200);
+            canvasContext.fillText("Computer Won!",350,200);
           }
           canvasContext.fillText("Click to continue",350,500);
             return;
